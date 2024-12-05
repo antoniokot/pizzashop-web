@@ -28,8 +28,6 @@ export function SignUp() {
 
   async function handleSignUp(data: SignUpForm) {
     try {
-      console.log(data)
-
       // eslint-disable-next-line promise/param-names
       await new Promise((r) => setTimeout(r, 2000))
 
